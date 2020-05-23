@@ -1,0 +1,122 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('school4.jpeg');
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.nav{
+    float: right;
+    background-color: rgba(0,0,0,0.7);
+    width: max-content;
+    margin:0px;
+    padding: 0px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding:  20px;
+    line-height: 55px;
+}
+.nav a:hover{
+    background-color: blue;
+}
+.main{
+    float: left;
+    margin-top: 160px;
+    margin-left: 100px;
+    overflow: visible;
+}
+.name
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(241, 232, 219);
+    font-size: 40px;
+}
+.tag{
+    font-size: 23px;
+    font-style: oblique;
+    color: rgb(0, 255, 234);
+}
+.sidebar{
+    float: right;
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin-top:70px;
+    margin-right: 20px;
+}
+.image{
+    margin: 10px auto;
+    background-image: url('logo1.png');
+    width:200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.admit{
+    background-color: rgb(124, 115, 97);
+    width: 150px;
+    border:none;
+    text-align: center;
+    margin:10px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black ;
+    
+}
+.form{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: serif;
+    color: black;
+    font-weight: lighter ;
+    text-shadow: black;
+}
+.circle{
+    float: left;
+    width:70px;
+    height:70px;
+    border:none;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.cl1{
+    background-color: rgba(248, 3, 3, 0.9);
+    box-shadow: 5px 5px 10px rgb(46, 2, 2); 
+    
+}
+.cl2{
+    background-color: rgba(3, 19, 248, 0.9);
+    box-shadow: 5px 5px 10px rgb(2, 5, 46); 
+}
+.cl3{
+    background-color: rgba(3, 248, 15, 0.9);
+    box-shadow: 5px 5px 10px rgb(2, 53, 14);
+}
+.cl4{
+    background-color: rgba(255, 251, 7, 0.877);
+    box-shadow: 5px 5px 20px rgb(65, 53, 1);
+}
+.add{
+   
+    margin-top: 50px;
+    background-color: rgba(240, 245, 245, 0.7);
+    border-radius: 5px;
+    color: rgb(1, 1, 158);
+    padding: 5px;
+}
+.add img{
+   width:50px;
+   height: 50px;
+   float: left;
+   margin: 10px;
+}
